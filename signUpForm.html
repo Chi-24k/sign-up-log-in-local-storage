@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Sign Up Page</title>
+</head>
+<body>
+
+  <div class="container w-full max-w-sm">
+    <h1 class="text-2xl m-4 font-semibold">Sign Up</h1>
+
+    <form action="login.html" onsubmit="signupFunc()" name="signUp" class="bg-[whitesmoke] rounded px-8 pt-6 pb-8 m-4 shadow">
+      <label for="firstName" class="font-semibold mb-3">First Name</label> <br>
+      <input type="text" name="firstName" id="firstName" placeholder="First Name" class="w-full rounded-sm shadow p-2 mb-4" /required> <br>
+
+      <label for="lastName" class="font-semibold mb-3">Last Name</label> <br>
+      <input type="text" name="lastName" id="lastName" placeholder="Last Name " class="w-full rounded-sm shadow p-2 mb-4" /required> <br>
+
+      <label for="userName" class="font-semibold mb-3">Username</label> <br>
+      <input type="text" name="userName" id="userName" placeholder="User Name" class="w-full rounded-sm shadow p-2 mb-4" /required> <br>
+
+      <label for="email" class="font-semibold mb-3">E-mail</label> <br>
+      <input type="email" name="email" id="email" placeholder="E-mail" class="w-full rounded-sm shadow p-2 mb-4"/required> <br>
+
+      <label for="password" class="font-semibold mb-3">Password</label> <br>
+      <input type="password" name="password" id="password" placeholder="Password" class="w-full rounded-sm shadow p-2 mb-4"/required> <br>
+
+      <button type="submit" class="bg-slate-700 text-[whitesmoke] font-medium p-2 rounded hover:scale-110 transition-all">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
